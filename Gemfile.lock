@@ -28,6 +28,8 @@ GEM
       activesupport (>= 3.0.0)
     faker (1.4.3)
       i18n (~> 0.5)
+    geocodio (2.0.2)
+      json
     i18n (0.7.0)
     json (1.8.2)
     mime-types (2.4.3)
@@ -87,6 +89,7 @@ DEPENDENCIES
   capybara
   factory_girl
   faker
+  geocodio
   pg
   rack-test
   rake
@@ -97,4 +100,4 @@ DEPENDENCIES
   sinatra-contrib
 
 BUNDLED WITH
-   1.11.2
+   1.14.6

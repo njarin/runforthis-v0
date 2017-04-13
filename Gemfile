@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Geocoding library
+gem 'geocodio'
+
 # PostgreSQL driver
 gem 'pg'
 
