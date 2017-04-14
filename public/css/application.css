@@ -1,5 +1,6 @@
 body {
   min-width: 450px;
+
 }
 
 nav {
@@ -12,7 +13,7 @@ nav a {
   margin-left: 8px;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
