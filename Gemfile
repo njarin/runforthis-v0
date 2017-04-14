@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Geocoding library
 gem 'geocodio'
 
+#YAML parser
+gem 'psych'
+
 # PostgreSQL driver
 gem 'pg'
 
