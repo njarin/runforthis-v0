@@ -1,6 +1,6 @@
 body {
   min-width: 450px;
-
+  min-height: 1000px;
 }
 
 nav {
@@ -30,6 +30,9 @@ nav a {
 }
 
 .prompt {
+  min-height: 350px;
+  min-width: 400px;
+  max-width: 800px;
   background-image: url("../images/american_flag_at_the_beach.jpg");
   background-color: #cccccc;
   background-size: cover;
@@ -46,8 +49,7 @@ p {
   font-size: 20px;
   font-weight: bold;
   padding: 25px;
-  min-width: 330px;
-  max-width: 50%;
+  width: 330px;
 }
 
 .prompt button {
