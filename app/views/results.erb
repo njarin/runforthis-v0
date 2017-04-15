@@ -1,1 +1,23 @@
+<div class="container results">
+<h2>Your Senators</h2>
+<% @senators.each do |senator| %>
+  <div class="container politician-details">
+    <a href="<%= senator.website %>"><%= senator.name %></a>
+  </div>
+<% end %>
+</div>
 
+<div class="container results">
+<h2>Your Congressional Representatives</h2>
+<% if @representatives.respond_to?(:to_ary) %>
+  <% @representatives.each do |representative| %>
+    <div class="container politician-details">
+      <a href="<%= representative.website %>"><%= representative.name %></a>
+    </div>
+  <% end %>
+<% else %>
+  <div class="container politician-details">
+    <a href="<%= representative.website %>"><%= representative.name %></a>
+  </div>
+<% end %>
+</div>
